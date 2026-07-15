@@ -1,0 +1,410 @@
+import {
+  Apple,
+  Baby,
+  Backpack,
+  Banknote,
+  BarChart,
+  BedDouble,
+  Beer,
+  Bike,
+  BookOpen,
+  Briefcase,
+  Building2,
+  Bus,
+  Cake,
+  Camera,
+  Car,
+  Cigarette,
+  Clapperboard,
+  Coffee,
+  Coins,
+  Cookie,
+  CreditCard,
+  DollarSign,
+  Dumbbell,
+  Film,
+  Fuel,
+  GamepadIcon,
+  Gift,
+  Glasses,
+  GraduationCap,
+  Hammer,
+  Headphones,
+  Heart,
+  Home,
+  Hotel,
+  IceCream,
+  Landmark,
+  Lightbulb,
+  Microscope,
+  Monitor,
+  Music,
+  Paintbrush,
+  PawPrint,
+  Phone,
+  PiggyBank,
+  Pill,
+  Pizza,
+  Plane,
+  Plug,
+  Receipt,
+  Sandwich,
+  Scissors,
+  Shirt,
+  ShoppingBag,
+  ShoppingCart,
+  Smartphone,
+  Stethoscope,
+  Syringe,
+  Tag,
+  Ticket,
+  Train,
+  TrendingUp,
+  Trophy,
+  Tv,
+  Utensils,
+  UtensilsCrossed,
+  Wallet,
+  Wifi,
+  Wine,
+  Wrench,
+} from "lucide-react";
+
+export const iconsCategories = [
+  {
+    label: "🏠 Housing & Bills",
+    icons: [
+      { name: "Home", icon: Home, color: "#1D4ED8", background: "#DBEAFE" },
+      {
+        name: "Lightbulb",
+        icon: Lightbulb,
+        color: "#B45309",
+        background: "#FEF3C7",
+      },
+      { name: "Plug", icon: Plug, color: "#6D28D9", background: "#EDE9FE" },
+      { name: "Wifi", icon: Wifi, color: "#0891B2", background: "#CFFAFE" },
+      { name: "Phone", icon: Phone, color: "#0F766E", background: "#CCFBF1" },
+      { name: "Tv", icon: Tv, color: "#6D28D9", background: "#EDE9FE" },
+      {
+        name: "BedDouble",
+        icon: BedDouble,
+        color: "#1D4ED8",
+        background: "#DBEAFE",
+      },
+      { name: "Hammer", icon: Hammer, color: "#92400E", background: "#FDE68A" },
+      { name: "Wrench", icon: Wrench, color: "#065F46", background: "#D1FAE5" },
+      {
+        name: "Paintbrush",
+        icon: Paintbrush,
+        color: "#BE185D",
+        background: "#FCE7F3",
+      },
+    ],
+  },
+  {
+    label: "🚗 Transport",
+    icons: [
+      { name: "Car", icon: Car, color: "#DC2626", background: "#FEE2E2" },
+      { name: "Bus", icon: Bus, color: "#D97706", background: "#FEF3C7" },
+      { name: "Bike", icon: Bike, color: "#16A34A", background: "#DCFCE7" },
+      { name: "Train", icon: Train, color: "#2563EB", background: "#DBEAFE" },
+      { name: "Plane", icon: Plane, color: "#0891B2", background: "#CFFAFE" },
+      { name: "Fuel", icon: Fuel, color: "#EA580C", background: "#FFEDD5" },
+    ],
+  },
+  {
+    label: "🍔 Food & Drinks",
+    icons: [
+      {
+        name: "Utensils",
+        icon: Utensils,
+        color: "#EA580C",
+        background: "#FFEDD5",
+      },
+      {
+        name: "UtensilsCrossed",
+        icon: UtensilsCrossed,
+        color: "#DC2626",
+        background: "#FEE2E2",
+      },
+      { name: "Coffee", icon: Coffee, color: "#92400E", background: "#FDE68A" },
+      { name: "Pizza", icon: Pizza, color: "#DC2626", background: "#FEE2E2" },
+      {
+        name: "Sandwich",
+        icon: Sandwich,
+        color: "#B45309",
+        background: "#FEF3C7",
+      },
+      {
+        name: "IceCream",
+        icon: IceCream,
+        color: "#DB2777",
+        background: "#FCE7F3",
+      },
+      { name: "Cake", icon: Cake, color: "#C026D3", background: "#FAE8FF" },
+      { name: "Cookie", icon: Cookie, color: "#A16207", background: "#FEF9C3" },
+      { name: "Apple", icon: Apple, color: "#16A34A", background: "#DCFCE7" },
+      { name: "Beer", icon: Beer, color: "#D97706", background: "#FEF3C7" },
+      { name: "Wine", icon: Wine, color: "#9D174D", background: "#FCE7F3" },
+    ],
+  },
+  {
+    label: "🛍️ Shopping & Clothing",
+    icons: [
+      {
+        name: "ShoppingCart",
+        icon: ShoppingCart,
+        color: "#7C3AED",
+        background: "#EDE9FE",
+      },
+      {
+        name: "ShoppingBag",
+        icon: ShoppingBag,
+        color: "#BE185D",
+        background: "#FCE7F3",
+      },
+      { name: "Shirt", icon: Shirt, color: "#2563EB", background: "#DBEAFE" },
+      {
+        name: "Scissors",
+        icon: Scissors,
+        color: "#BE185D",
+        background: "#FCE7F3",
+      },
+      {
+        name: "Glasses",
+        icon: Glasses,
+        color: "#374151",
+        background: "#F3F4F6",
+      },
+      {
+        name: "Backpack",
+        icon: Backpack,
+        color: "#7C3AED",
+        background: "#EDE9FE",
+      },
+    ],
+  },
+  {
+    label: "💰 Finance & Banking",
+    icons: [
+      {
+        name: "DollarSign",
+        icon: DollarSign,
+        color: "#15803D",
+        background: "#DCFCE7",
+      },
+      {
+        name: "PiggyBank",
+        icon: PiggyBank,
+        color: "#DB2777",
+        background: "#FCE7F3",
+      },
+      {
+        name: "TrendingUp",
+        icon: TrendingUp,
+        color: "#16A34A",
+        background: "#DCFCE7",
+      },
+      {
+        name: "BarChart",
+        icon: BarChart,
+        color: "#2563EB",
+        background: "#DBEAFE",
+      },
+      { name: "Coins", icon: Coins, color: "#D97706", background: "#FEF3C7" },
+      {
+        name: "Banknote",
+        icon: Banknote,
+        color: "#15803D",
+        background: "#DCFCE7",
+      },
+      {
+        name: "CreditCard",
+        icon: CreditCard,
+        color: "#0F766E",
+        background: "#CCFBF1",
+      },
+      { name: "Wallet", icon: Wallet, color: "#1D4ED8", background: "#DBEAFE" },
+      {
+        name: "Receipt",
+        icon: Receipt,
+        color: "#6D28D9",
+        background: "#EDE9FE",
+      },
+      {
+        name: "Landmark",
+        icon: Landmark,
+        color: "#1E40AF",
+        background: "#DBEAFE",
+      },
+      {
+        name: "Building2",
+        icon: Building2,
+        color: "#374151",
+        background: "#F3F4F6",
+      },
+    ],
+  },
+  {
+    label: "🏥 Health & Medical",
+    icons: [
+      { name: "Heart", icon: Heart, color: "#DC2626", background: "#FEE2E2" },
+      {
+        name: "Stethoscope",
+        icon: Stethoscope,
+        color: "#0891B2",
+        background: "#CFFAFE",
+      },
+      { name: "Pill", icon: Pill, color: "#7C3AED", background: "#EDE9FE" },
+      {
+        name: "Syringe",
+        icon: Syringe,
+        color: "#2563EB",
+        background: "#DBEAFE",
+      },
+      {
+        name: "Microscope",
+        icon: Microscope,
+        color: "#0F766E",
+        background: "#CCFBF1",
+      },
+    ],
+  },
+  {
+    label: "📚 Education",
+    icons: [
+      {
+        name: "GraduationCap",
+        icon: GraduationCap,
+        color: "#1D4ED8",
+        background: "#DBEAFE",
+      },
+      {
+        name: "BookOpen",
+        icon: BookOpen,
+        color: "#7C3AED",
+        background: "#EDE9FE",
+      },
+      {
+        name: "Backpack",
+        icon: Backpack,
+        color: "#D97706",
+        background: "#FEF3C7",
+      },
+    ],
+  },
+  {
+    label: "💻 Tech & Electronics",
+    icons: [
+      {
+        name: "Smartphone",
+        icon: Smartphone,
+        color: "#0F172A",
+        background: "#E2E8F0",
+      },
+      {
+        name: "Monitor",
+        icon: Monitor,
+        color: "#1D4ED8",
+        background: "#DBEAFE",
+      },
+      {
+        name: "Headphones",
+        icon: Headphones,
+        color: "#7C3AED",
+        background: "#EDE9FE",
+      },
+      { name: "Camera", icon: Camera, color: "#1E40AF", background: "#DBEAFE" },
+    ],
+  },
+  {
+    label: "🎮 Entertainment & Leisure",
+    icons: [
+      { name: "Film", icon: Film, color: "#DC2626", background: "#FEE2E2" },
+      {
+        name: "Clapperboard",
+        icon: Clapperboard,
+        color: "#6D28D9",
+        background: "#EDE9FE",
+      },
+      { name: "Music", icon: Music, color: "#9333EA", background: "#F3E8FF" },
+      {
+        name: "GamepadIcon",
+        icon: GamepadIcon,
+        color: "#16A34A",
+        background: "#DCFCE7",
+      },
+      { name: "Ticket", icon: Ticket, color: "#D97706", background: "#FEF3C7" },
+      { name: "Trophy", icon: Trophy, color: "#CA8A04", background: "#FEF9C3" },
+    ],
+  },
+  {
+    label: "🏋️ Sports & Fitness",
+    icons: [
+      {
+        name: "Dumbbell",
+        icon: Dumbbell,
+        color: "#DC2626",
+        background: "#FEE2E2",
+      },
+      { name: "Bike", icon: Bike, color: "#16A34A", background: "#DCFCE7" },
+    ],
+  },
+  {
+    label: "🐾 Pets",
+    icons: [
+      {
+        name: "PawPrint",
+        icon: PawPrint,
+        color: "#92400E",
+        background: "#FDE68A",
+      },
+    ],
+  },
+  {
+    label: "👶 Family & Kids",
+    icons: [
+      { name: "Baby", icon: Baby, color: "#DB2777", background: "#FCE7F3" },
+      { name: "Gift", icon: Gift, color: "#DC2626", background: "#FEE2E2" },
+    ],
+  },
+  {
+    label: "💼 Work & Business",
+    icons: [
+      {
+        name: "Briefcase",
+        icon: Briefcase,
+        color: "#1E40AF",
+        background: "#DBEAFE",
+      },
+      { name: "Hotel", icon: Hotel, color: "#D97706", background: "#FEF3C7" },
+    ],
+  },
+  {
+    label: "🚬 Others",
+    icons: [
+      {
+        name: "Cigarette",
+        icon: Cigarette,
+        color: "#6B7280",
+        background: "#F3F4F6",
+      },
+    ],
+  },
+];
+
+export const defaultIcon = {
+  name: "Tag",
+  icon: Tag,
+  color: "#6B7280",
+  background: "#F3F4F6",
+};
+
+// return an object with in the key is the name of the icon
+// and the value is the object of icon,color,background,name
+export const iconIndex = iconsCategories.reduce((acc, category) => {
+  category.icons.forEach((icon) => {
+    acc[icon.name] = icon;
+  });
+  return acc;
+}, {});

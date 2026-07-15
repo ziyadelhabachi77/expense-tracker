@@ -1,0 +1,10 @@
+# This root .gitignore only needs repo-wide OS/editor clutter.
+# api/.gitignore and frontend/.gitignore already handle their own
+# folders (vendor, node_modules, .env, dist, caches, logs, etc.)
+# — git respects .gitignore files in every subfolder, not just root.
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
