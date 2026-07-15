@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./docs/logo.png" alt="Mizania" width="90" />
-</p>
+
 
 <h1 align="center">Mizania</h1>
 <p align="center"><em>A minimalist tool for managing student expenses, tracking budgets, and maintaining financial clarity.</em></p>
@@ -39,7 +37,7 @@ This is a **monorepo** containing both the backend and frontend:
 
 **Login / Register**
 
-![Login](https://i.imgur.com/Gr0a5yH.png)
+![Login](https://i.imgur.com/c6v0ZWD.png)
 ![Register](https://i.imgur.com/5fabYyG.png)
 
 **Dashboard**
