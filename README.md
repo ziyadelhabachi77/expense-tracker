@@ -33,25 +33,26 @@ This is a **monorepo** containing both the backend and frontend:
 
 ## Preview
 
-> Replace these with real screenshots once uploaded to `docs/screenshots/` in each repo.
+**Landing**
 
-**Landing & Auth**
+![Landing](https://i.imgur.com/Gr0a5yH.png)
 
-![Landing](./docs/screenshots/landing.png)
-![Login / Signup](./docs/screenshots/auth.png)
+**Login / Register**
+
+![Login](https://i.imgur.com/Gr0a5yH.png)
+![Register](https://i.imgur.com/5fabYyG.png)
 
 **Dashboard**
 
-![Dashboard](./docs/screenshots/dashboard.png)
+![Dashboard](https://i.imgur.com/VOuF8hY.png)
 
 **Expenses**
 
-![Expenses](./docs/screenshots/expenses.png)
+![Expenses](https://i.imgur.com/v1KCBWl.png)
 
 **Budget Planner**
 
-![Budgets](./docs/screenshots/budgets.png)
-![Spending Analysis](./docs/screenshots/spending-analysis.png)
+![Budgets](https://i.imgur.com/qWdS5dZ.png)
 
 ## Core Features
 
@@ -79,7 +80,7 @@ This is a **monorepo** containing both the backend and frontend:
 Clone the repo, then set up each side:
 
 ```bash
-git clone <your-repo-url> mizania
+git clone https://github.com/ziyadelhabachi77/expense-tracker
 cd mizania
 
 # 1. Backend
@@ -109,7 +110,6 @@ npm run dev
 | **Backend** | Laravel, Laravel Sanctum, MySQL, PHPUnit |
 | **Frontend** | React, Vite, `<styling/chart libraries>` |
 | **Tooling** | Docker (local dev), Git |
-
 
 
 ## License
